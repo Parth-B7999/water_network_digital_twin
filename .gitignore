@@ -1,0 +1,32 @@
+# Large simulation data files (generate with 02_data_generation/data_generation.ipynb)
+**/Q_quality_gt1.csv
+**/F_quality_gt1.csv
+**/P_quality_gt1.csv
+**/patt_quality_gt1.csv
+
+# EPANET runtime files
+**/temp.bin
+**/temp.inp
+**/temp.rpt
+**/*.bin
+**/*-DESKTOP-*.inp
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Large numpy arrays generated during training
+**/df11_*.npy
+
+# Editor
+.vscode/
