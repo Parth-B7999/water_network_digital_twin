@@ -1,8 +1,26 @@
 # Large simulation data files (generate with 02_data_generation/data_generation.ipynb)
-**/Q_quality_gt1.csv
-**/F_quality_gt1.csv
-**/P_quality_gt1.csv
-**/patt_quality_gt1.csv
+# Note: 01_hydraulic_calibration/ has its own small versions - those ARE tracked
+02_data_generation/Q_quality_gt1.csv
+02_data_generation/F_quality_gt1.csv
+02_data_generation/P_quality_gt1.csv
+02_data_generation/patt_quality_gt1.csv
+03_demand_multiplier_nn/Q_quality_gt1.csv
+03_demand_multiplier_nn/F_quality_gt1.csv
+03_demand_multiplier_nn/P_quality_gt1.csv
+03_demand_multiplier_nn/patt_quality_gt1.csv
+04_quality_calibration/Q_quality_gt1.csv
+04_quality_calibration/F_quality_gt1.csv
+04_quality_calibration/P_quality_gt1.csv
+04_quality_calibration/patt_quality_gt1.csv
+05_quality_prediction/Q_quality_gt1.csv
+05_quality_prediction/F_quality_gt1.csv
+05_quality_prediction/P_quality_gt1.csv
+05_quality_prediction/patt_quality_gt1.csv
+06_booster_chlorination/Q_quality_gt1.csv
+06_booster_chlorination/F_quality_gt1.csv
+06_booster_chlorination/P_quality_gt1.csv
+06_booster_chlorination/patt_quality_gt1.csv
+07_leak_localization/P_quality_gt1.csv
 
 # EPANET runtime files
 **/temp.bin
